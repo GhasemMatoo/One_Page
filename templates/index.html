@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- About Section Start -->
+    {% include "base/about.html" %}
+    <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    {% include "base/services.html" %}
+    <!-- Services Section End -->
+
+    <!-- Resume Section Start -->
+    {% include "base/resume.html" %}
+    <!-- Resume Section End -->
+
+    <!-- Portfolio Section -->
+    {% include "base/work.html" %}
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Contact Section Start -->
+    {% include "base/contact.html" %}
+    <!-- Contact Section End -->
+{% endblock  %}
